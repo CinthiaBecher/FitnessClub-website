@@ -1,0 +1,275 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: black;*/
+}
+
+header {
+    padding: 20px 0;
+    background-color: black;
+    height: 60px;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logoHeader {
+    width: 200px;
+    margin-top: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 00px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline 2.5px #D7FD33;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+/* --------------PLANOS--------------*/
+
+.planos {
+    padding-top: 40px;
+    background-color: #000000;
+}
+
+.planos h2,
+.planos p {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.planos-box {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.planos-box li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    margin: 0 1.5%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.192);
+}
+
+.planos-box h3 {
+    font: 19px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline #FFAB2E;
+    font-weight: 700;
+}
+
+.planos-box h4 {
+    font: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.planos-box span {
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    text-align: initial;
+}
+
+#valor {
+    font-size: 51px;
+    font-weight: 850;
+    margin: 10px 0 10px 0;
+    color: #D7FD33;
+}
+
+#descricao {
+    color: white;
+}
+
+#Premium {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(images/premiumImage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Gold {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(images/goldImage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Platinum {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(images/platinumImage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.planos-box button {
+    margin-top: 20px;
+    background-color: transparent;
+    color: #FFAB2E;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #FFAB2E;
+}
+
+.planos-box button:hover {
+    background-color: #FFAB2E;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #FFAB2E;
+}
+
+
+/* --------------APP--------------*/
+
+.treineEmCasa {
+    position: relative;
+    background-color: white;
+    padding: 50px 100px;
+}
+
+.treineEmCasa img {
+    width: 520px;
+}
+
+.treineEmCasa h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.treineEmCasa p {
+    color: black;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#textoApp {
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    width: 500px;
+}
+
+.treineEmCasa button {
+    margin-top: 20px;
+    background-color: #D7FD33;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #D7FD33;
+}
+
+.treineEmCasa button:hover {
+    background-color: black;
+    color: #D7FD33;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+/* --------------LOCALIZACAO--------------*/
+
+.localizacao {
+    background: black;
+    padding: 50px 100px;
+}
+
+.localizacao h2 {
+    color: white;
+    text-align: center;
+}
+
+.search {
+    margin: 30px auto;
+    width: 640px;
+    position: relative;
+    display: flex;
+}
+
+.search input {
+    height: 40px;
+    width: 100%;
+    padding: 0px 12px;
+    border: solid 1.5px rgb(56, 56, 56);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search button {
+    background-color: #FFAB2E;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #FFAB2E;
+    width: 80px;
+    height: 43px;
+    margin-left: 5px
+}
+
+.footer-logo-copy {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #D7FD33;
+    padding: 10px 20px 5px 20px;
+}
+
+.footer img {
+    width: 35px;
+}
+
+.footer p {
+    position: absolute;
+    top: 30%;
+    right: 00px;
+    color: black;
+    margin: 0;
+}

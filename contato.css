@@ -1,0 +1,205 @@
+header {
+    padding: 20px 0;
+    background-color: black;
+    height: 60px;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logoHeader {
+    width: 200px;
+    margin-top: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 00px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline 2.5px #D7FD33;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+p,
+ul {
+    color: black;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+/* --------------CONTATO--------------*/
+
+.contato {
+    padding: 50px 100px;
+    width: 940px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 8px 25px;
+    border: solid 1.5px rgb(56, 56, 56);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forma-contato {
+    margin-bottom: 20px;
+}
+
+.forma-contato label {
+    font-weight: 500;
+}
+
+select {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 20px;
+    border: 2px solid #D7FD33;
+}
+
+#checkbox-novidades {
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+#checkbox-novidades-label {
+    font-weight: 500;
+}
+
+#botao-enviar {
+    margin-top: 10px;
+    background-color: #D7FD33;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 2px solid #D7FD33;
+    width: 50%;
+}
+
+#botao-enviar:hover {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+/* --------------HORÁRIOS--------------*/
+
+.horarios-atendimento {
+    background: black;
+    padding: 50px 100px;
+}
+
+.horarios-atendimento h2 {
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 440px;
+    margin: 30px auto;
+    color: white;
+}
+
+thead {
+    background-color: #FFAB2E;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+th {
+    padding: 5px;
+    border: solid 8px black;
+    border-radius: 20px;
+}
+
+td {
+    text-align: center;
+    padding: 6px 15px;
+}
+
+
+/* --------------FOOTER--------------*/
+
+.footer-logo-copy {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #D7FD33;
+    padding: 10px 20px 5px 20px;
+}
+
+.footer img {
+    width: 35px;
+}
+
+.footer p {
+    position: absolute;
+    top: 30%;
+    right: 00px;
+    color: black;
+    margin: 0;
+}

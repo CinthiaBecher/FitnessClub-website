@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Contato </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <h1><img class="logoHeader" src="images/logobranca.png" alt="logo Fitness Club"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Modalidades</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="contato">
+            <h2>Entre em <span style="text-decoration: underline 2.5px #FFAB2E;">Contato</span></h2>
+            <form action="">
+                <label for="nome">Nome</label>
+                <input type="text" name="Nome" id="nome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" style="width: 35%;" class="input-padrao" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" style="width: 25%;" class="input-padrao" required placeholder="(xx) 99999 - 9999">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10" class="input-padrao" required></textarea>
+
+                <fieldset class="forma-contato">
+                    <legend>Como prefere ser contatado?</legend>
+
+                    <label for="radio-email"><input type="radio" value="email" name="tipo-contato" id="radio-email" >Email</label>
+
+
+                    <label for="radio-lig"><input type="radio" value="ligacao" name="tipo-contato" id="radio-lig" >Ligação</label>
+
+
+                    <label for="radio-wpp"><input type="radio" value="wpp" name="tipo-contato" id="radio-wpp " checked>Whatsapp</label>
+
+                </fieldset>
+                <fieldset id="horario-contato">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+                <label for="novidades" id="checkbox-novidades-label">
+                  <input type="checkbox" name="novidades" id="checkbox-novidades" checked> Gostaria de receber novidades por Email
+                </label>
+
+                <input type="submit" value="Enviar" id="botao-enviar">
+
+
+            </form>
+        </div>
+
+        <div class="horarios-atendimento">
+            <h2>Horários de Atendimento</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>09h - 17h</td>
+                    </tr>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>05h - 23h</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>05h - 23h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>05h - 23h</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>05h - 23h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>05h - 23h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <footer class="footer ">
+        <div class="footer-logo-copy ">
+            <img src="images/logoP.png " alt=" ">
+            <p>&copy; Copyright Fitness Club - 2022</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
