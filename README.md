@@ -2,11 +2,11 @@
     <img src="https://user-images.githubusercontent.com/63256286/185801967-cbb26b7a-fd6d-4d97-892a-33e3b1dfce04.png">
 </h1>
 
-Projeto desenvolvido no curso sobre HTML5 e CSS3 da Alura, com a finalidade de praticar os conhecimentos adquiridos durante o curso.
+Project developed during the HTML5 and CSS3 course at Alura, with the intention of training the knowledge acquired during the course.
 
-A Fitness Club é uma academia fictícia, desenvolvida apenas aplicação dos conhecimentos de front-end. 
+The Fitness Club is a fictitious gym, developed just to apply the front-end knowledge. 
 
-O seu site conta atualmente com três páginas: Home, Planos e Contato.
+Its website currently has three pages: Home, Plans and Contact. And the placeholder text is written in Portuguese.
 
 
 
@@ -15,8 +15,8 @@ O seu site conta atualmente com três páginas: Home, Planos e Contato.
 <img width="1512" alt="Frame Contato" src="https://user-images.githubusercontent.com/63256286/185803754-7d32bc47-9a28-4bb1-b9ff-92b1a010a3dd.png">
 
 
-### Próximos passos
-* Responsividade
-* Adicionar novas páginas e seções
+### Next steps
+* Responsiveness
+* Add new pages and sections
 
-<!-- View Live - site próprio github-->
+[View Live](https://cinthiabecher.github.io/FitnessClub-website/)
